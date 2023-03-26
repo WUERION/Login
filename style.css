@@ -71,3 +71,15 @@ a {
     text-align: center;
     text-decoration: none;
 }
+
+@media screen and (max-width: 900px) {
+    .login {
+        box-shadow: 0 0 10px -3px black;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .login {
+        padding: 30px 35px;
+    }
+}
