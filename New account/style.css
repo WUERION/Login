@@ -67,3 +67,15 @@ a {
     text-align: center;
     text-decoration: none;
 }
+
+@media screen and (max-width: 900px) {
+    .new-account {
+        box-shadow: 0 0 10px -3px black;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .new-account {
+        padding: 30px 50px;
+    }
+}
